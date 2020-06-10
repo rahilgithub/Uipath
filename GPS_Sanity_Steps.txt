@@ -1,0 +1,53 @@
+GPS Sanity Flow steps
+======================
+
+1. Open browser(IE) and navigate to url : http://t1gps1m8.vci.att.com:9081/CRWEB/jsp/forms/CR_Frame.jsp
+2. Input Att uid and Global Logon
+3. Press Login and Continue.
+4. Navigate to CR Web screen of GPS.
+5. Click on New Request.
+6. Under Avialible companies menu select "MNS Test Company"
+7. Click on Select company and click ok button
+8. Next click on "Requestor" link and click on "search"
+9. Select 1st hyper link availible in the list.
+10. Next click on "Services" Tab
+11. Select "Equipment: New set-up" from the list menu
+12. Click "Add service"
+13. Next click on "Location/Site-id" link
+14. click on "search" button and select 1st hyperlink option
+15. type description for CR - "New CR Request"
+16. Click on "continue" and click on "complete order"
+17. refresh browser
+18. Enter details "email id" , "current date" , "time" , select check box (same as requestor)
+19. click "Submit" button.
+20. CR # is generated - store the CR # in a variable ( CR_Number)
+21) Open the GPS Application
+22) select the same company in RCP and open CR
+23) Go to wfm Project
+24) There will sets of tasks under CR
+25)Complet only Review for Netwrok Impact Task by clicking mark task complete
+26) Refresh The Screen
+27) SR will be generated
+28)Open Intial SR process Click on Go to SR 
+29)Populate Node Primary Name from the drop down some time there will be no value in Drop down the click on the 
+  Node Primary Name which is a drill down it will navigate to next page the do search and select any value
+30) Populate Standard Interval with time 
+31)populate SLA/Negoitated due date with time
+32) Populate Missed Requested compl Reason, Missed Standated Interval Reason and Missed SLA Reason with Client Delay from there Drop Down
+and Save the screen
+33) Populate the Service Request (any value from the drop down) and save the screen
+34) Copy the Node Primary Name what is populated on the screen and open Service Tab which is next to SR tab
+35)Double Click on the SR line 
+36) Go to Atribute tab paste the copied value where (node prime) filed you see and save the screen
+37) Come back to worf dlow and complete the task by clicking mark task complte
+38)Determine retrival tab select none in that if the task in open
+39)Is servey needed select no servey is needed and sumbt
+40) Provide Physical Site Design select hardware is required
+41) Then Order List task will appear then click on open task for this and click on go to Order list tab if the tab doesn't appear the close the work flow and open again as there is some issue you can refresh the screen also to chek it appears or not
+42) If you entered in the Order List tab the populate all the mandatory fileds and save the screen if you missed any field it will throw the error which filed is left to populate. Here also some time in drop down there will be no value so click direcly on that field it will guide to next screen where you can do random search and select any value. In order List screen for Acount Type drop down please select ITPEL value.
+43) After Populating all the value and save is successful the copy the SR num and paste it on the Excel sheet provided as OL tempelet and save the same the click on Upload OL and follw the steps asked.
+44) After OL successfully uploaded click transmit button.
+45) After Transmit successfull click on Order List Line Tab to check lines are created.
+46) Send sanity confirmation email to receipients with the order lines screenshot. 
+
+
