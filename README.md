@@ -4,3 +4,4 @@ Automated CR Web / RCP screen modules using UI Path tool that uses Robotic  pro
 UiPath automatically runs these test suite and sends out a detailed report along with snapshot so team can review and identify the failure point. for further investigation.              
 This tool can be used to automate the regression / progression test cases which significantly reduces the manual effort.  
 One more benefit of this tool is it can automate a desktop based application which cant be achieved using Selenium
+
